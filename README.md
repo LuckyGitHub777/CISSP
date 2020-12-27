@@ -24,3 +24,57 @@ This study guide is split into 7 categories:
 Official CISSP Website: https://www.isc2.org/Certifications/CISSP
 
 Official CISSP Ultimate Guide: https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
+
+#### Official Resources
+CISSP Official Website
+https://www.isc2.org/Certifications/CISSP
+CISSP Ultimate Guide
+https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
+CISSP Requirements
+https://www.isc2.org/Certifications/CISSP/Experience-Requirements
+CISSP Outline
+https://www.isc2.org//-/media/ISC2/Certifications/Exam-Outlines/CISSP-Exam-Outline-English-April-2021.ashx
+ISC2 Certification Prep Kit
+https://www.isc2.org/-/media/E657C963AB4A45E1A13D022E9CE990FE.ashx
+CISSP Official Student Guide
+https://www.isc2.org/-/media/6BDD05B576BA4169910CD2FCEF9C9D91.ashx
+#### Study Guides:
+Official CISSP Review Course - Free
+https://enroll.isc2.org/product?catalog=ISC2-CISSP-RVW-PUB
+Webcast Series:
+https://www.isc2.org/Certifications/CISSP/Webcast-Series/Thank-You
+##### Resources by Chapter:
+###### Security and Risk Management
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-and-risk-management
+###### Asset Security
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/asset-security
+###### Security Architecture and Engineering
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-architecture-and-engineering
+###### Communication and Network Security 
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/communication-and-network-security
+###### Identity and Access Management
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/identity-and-access-management
+###### Security Assessment and Testing
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-assessment-and-testing
+###### Security Operations
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-operations
+###### Software Development Security
+Flashcards:
+https://www.isc2.org/training/self-study-resources/flashcards/cissp/software-development-security
+##### Third Party Study Guides
+###### CISSP Study Guide - simonowens
+https://simonowens157.gitlab.io/cissp/
+###### Study Notes and Theory
+https://www.studynotesandtheory.com/
+https://soloitguy.wordpress.com/
+###### IT Dojo Videos
+https://www.youtube.com/playlist?list=PLBpnwlO9U5unYmbZp2DJETNOHg8s_yW37
+
+# TBC
