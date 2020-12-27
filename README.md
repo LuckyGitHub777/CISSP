@@ -2,14 +2,14 @@
 The purpose of this CISSP Exam Study Guide repository is to provide resources and support for those enrolled in, or thinking of enrolling in, the CISSP exam, and to advance the profession as a whole.
 
 ## How to use this study guide
-This study guide is split into 7 categories:
-1-Introduction to the CISSP Exam
-2-Official CISSP Resources
-3-CISSP Foundations & Essentials
-4-Recommended Resources
-5-Third Party Resources
-6-Practice Exams
-7-Test Day Preparation
+This study guide is split into 7 categories: 
+1. Introduction to the CISSP Exam
+2. Official CISSP Resources
+3. CISSP Foundations & Essentials
+4. Recommended Resources
+5. Third Party Resources
+6. Practice Exams
+7. Test Day Preparation
 
 1. Understand the CISSP exam by exploring requirements and official (ISC)² resources
 2. Enroll in the official CISSP Self-Paced Review Course and study the Official CISSP Flash Cards concurrently. Completing one domain at a time works best.
@@ -20,4 +20,5 @@ This study guide is split into 7 categories:
 7. Pass the CISSP exam and become a Certified Information Systems Security Professional!
 
 Official CISSP Website: https://www.isc2.org/Certifications/CISSP
+
 Official CISSP Ultimate Guide: https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
