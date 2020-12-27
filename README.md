@@ -26,18 +26,18 @@ Official CISSP Website: https://www.isc2.org/Certifications/CISSP
 Official CISSP Ultimate Guide: https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
 
 #### Official Resources
-CISSP Official Website
-https://www.isc2.org/Certifications/CISSP
-CISSP Ultimate Guide
-https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
-CISSP Requirements
-https://www.isc2.org/Certifications/CISSP/Experience-Requirements
-CISSP Outline
-https://www.isc2.org//-/media/ISC2/Certifications/Exam-Outlines/CISSP-Exam-Outline-English-April-2021.ashx
-ISC2 Certification Prep Kit
-https://www.isc2.org/-/media/E657C963AB4A45E1A13D022E9CE990FE.ashx
-CISSP Official Student Guide
-https://www.isc2.org/-/media/6BDD05B576BA4169910CD2FCEF9C9D91.ashx
+CISSP Official Website: https://www.isc2.org/Certifications/CISSP
+
+CISSP Ultimate Guide: https://www.isc2.org/-/media/ISC2/Certifications/Ultimate-Guides/UltimateGuideCISSP-Web.ashx
+
+CISSP Requirements: https://www.isc2.org/Certifications/CISSP/Experience-Requirements
+
+CISSP Official Student Guide: https://www.isc2.org/-/media/6BDD05B576BA4169910CD2FCEF9C9D91.ashx
+
+CISSP Exam Outline: https://www.isc2.org//-/media/ISC2/Certifications/Exam-Outlines/CISSP-Exam-Outline-English-April-2021.ashx
+
+ISC2 Certification Prep Kit: https://www.isc2.org/-/media/E657C963AB4A45E1A13D022E9CE990FE.ashx
+
 #### Study Guides:
 Official CISSP Review Course - Free
 https://enroll.isc2.org/product?catalog=ISC2-CISSP-RVW-PUB
