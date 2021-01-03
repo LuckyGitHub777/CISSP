@@ -42,7 +42,7 @@ Official CISSP Flashcards: https://www.isc2.org/Training/Self-Study-Resources/Fl
 
 Official CISSP Webcast Series: https://www.isc2.org/Certifications/CISSP/Webcast-Series/Thank-You
 
-##### Resources by Chapter:
+##### Resources by Domain:
 ###### Security and Risk Management
 Flashcards:
 https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-and-risk-management
@@ -68,7 +68,14 @@ https://www.isc2.org/training/self-study-resources/flashcards/cissp/security-ope
 Flashcards:
 https://www.isc2.org/training/self-study-resources/flashcards/cissp/software-development-security
 
-#### Third Party Study Guides
+#### Third Party Resources
+##### CCCure
+https://cccure.training/tutorials/CISSP2018/intro/presentation_html5.html
+https://cccure.training/
+##### Infosec Resources
+https://resources.infosecinstitute.com/certifications/cissp/
+##### Crack the CISSP
+https://crackthecissp.com/
 ##### CISSP Study Guide - simonowens
 https://simonowens157.gitlab.io/cissp/
 ##### Study Notes and Theory
@@ -76,5 +83,11 @@ https://www.studynotesandtheory.com/
 https://soloitguy.wordpress.com/
 ##### IT Dojo Videos
 https://www.youtube.com/playlist?list=PLBpnwlO9U5unYmbZp2DJETNOHg8s_yW37
+
+#### Practice Exams
+##### Syngress Elsevier 2012 CISSP questions (online engine)
+https://booksite.elsevier.com/companion/conrad/practice_exams.php
+
+#### Test Day Preparation
 
 # TBC
