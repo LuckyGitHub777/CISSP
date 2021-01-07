@@ -1,5 +1,5 @@
 # CISSP Exam Study Guide
-The purpose of this CISSP Exam Study Guide repository is to provide resources and support for those enrolled in, or thinking of enrolling in, the CISSP exam, and to advance the profession as a whole.
+The purpose of this CISSP Exam Study Guide repository is to provide resources and support for those enrolled in or thinking of enrolling in the CISSP exam, in addition to advancing the profession as a whole.
 
 ## How to use this study guide
 This study guide is split into 7 categories: 
@@ -72,15 +72,19 @@ https://www.isc2.org/training/self-study-resources/flashcards/cissp/software-dev
 ##### CCCure
 https://cccure.training/tutorials/CISSP2018/intro/presentation_html5.html
 https://cccure.training/
-##### Infosec Resources
-https://resources.infosecinstitute.com/certifications/cissp/
+##### CISSP Exam Prep
+https://cissprep.net/
 ##### Crack the CISSP
 https://crackthecissp.com/
-##### CISSP Study Guide - simonowens
-https://simonowens157.gitlab.io/cissp/
+##### Thor Teaches
+https://thorteaches.com/cissp/
 ##### Study Notes and Theory
 https://www.studynotesandtheory.com/
 https://soloitguy.wordpress.com/
+##### Infosec Resources
+https://resources.infosecinstitute.com/certifications/cissp/
+##### CISSP Study Guide - simonowens
+https://simonowens157.gitlab.io/cissp/
 ##### IT Dojo Videos
 https://www.youtube.com/playlist?list=PLBpnwlO9U5unYmbZp2DJETNOHg8s_yW37
 
