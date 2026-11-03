@@ -250,16 +250,3 @@ No recovery, no continuity.
 No secure SDLC, no trusted software.  
 No AI governance, no AI trust.  
 No evidence, no claim.
-
-## The Museum Lens | Art × Science
-
-Explore the [temporary Art × Science Museum preview](https://luckygithub777.github.io/golden-ratio-frequency-lab/museum-preview/) and its safe, synthetic Origins Lab. The preview is not the eventual dedicated museum site; signed-out browser acceptance is separately tracked.
-
-This learning collection is part of [LuckyGitHub777's living museum of working imagination](https://github.com/LuckyGitHub777), where curiosity is paired with practical engineering and honest evidence.
-
-- **The spark:** Cybersecurity is also an exercise in systems thinking, clear judgment, and responsible design.
-- **The experience:** Explore the eight CISSP knowledge domains through structured study and conceptual connections.
-- **The mechanics:** Use the existing notes as a learning roadmap, then verify important specifics against current primary standards and official guidance.
-- **The boundary:** Educational material is not an official ISC2 endorsement, an exam guarantee, or a substitute for qualified security review. Keep security practice authorized and defensive.
-
-*Imagination opens the door. Engineering makes it real. Evidence keeps us honest.*
