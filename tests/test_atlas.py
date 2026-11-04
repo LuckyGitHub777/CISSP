@@ -84,7 +84,7 @@ class AtlasChecks(unittest.TestCase):
                 ).decode("ascii")
                 expected = f"{directive} 'sha256-{digest}'"
                 self.assertIn(expected, policy, "CSP hash does not match source bytes")
-        self.assertNotRegex(self.source, r"\\bon(?:click|load|error|input|change)=")
+        self.assertNotRegex(self.source, r"\bon(?:click|load|error|input|change)=")
         self.assertNotIn("javascript:", self.source.lower())
 
     @unittest.skipUnless(shutil.which("node"), "Node.js not installed")
