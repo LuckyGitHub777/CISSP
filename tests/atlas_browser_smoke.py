@@ -55,7 +55,9 @@ def verify(page, mode):
         field.fill("no-match-12345")
         demand(page.locator("article.domain:not([hidden])").count() == 0, "zero-results")
         demand(page.locator("#visible-count").inner_text() == "0 domains in view", "zero-count")
+        demand(page.locator("#empty-state").is_visible(), "empty-state-visible")
         page.locator("#clear-search").click()
+        demand(page.locator("#empty-state").is_hidden(), "empty-state-cleared")
         stage = "viewport"
         demand(page.evaluate("document.documentElement.scrollWidth <= window.innerWidth + 2"),
                "horizontal-overflow")
