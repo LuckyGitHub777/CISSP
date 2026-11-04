@@ -6,6 +6,14 @@ A structured CISSP study guide and cybersecurity leadership knowledge roadmap al
 
 The repository includes a self-contained, responsive [CISSP Domain Atlas](index.html) with eight clickable domain pathways, on-page search, and session-only exploration marks. Open `index.html` locally in a browser after downloading the repository. The experience needs no account, telemetry, network runtime or external libraries. This README does not claim a separate live website deployment.
 
+### Optional GitHub Pages publication (not yet active)
+
+The public repository already contains the complete, self-contained `index.html`. A **manual-only** GitHub Actions workflow, [Publish CISSP Domain Atlas](.github/workflows/pages-manual.yml), is prepared for a future Pages release. GitHub currently reports **Pages not enabled** for this repository; a workflow file alone does not activate hosting.
+
+An authorized repository administrator can enable **Settings → Pages → Build and deployment → Source: GitHub Actions**, then manually dispatch the workflow. It first runs the existing static and desktop/mobile browser checks, then uploads **only** `index.html` and `.nojekyll`. No study notes, hidden files, analytics, or credential files are included in the site artifact.
+
+The website is considered live only after a successful Pages deployment and a signed-out visitor check. Until then, open `index.html` locally.
+
 ## Purpose
 
 This repository organizes CISSP knowledge into a practical leadership system for cybersecurity governance, risk management, architecture, operations, identity, testing, software security, and mission protection.
