@@ -66,6 +66,10 @@ Official sources:
 
 Exam facts and domain weights are sourced claims. For exam planning, verify them through ISC2 official guidance.
 
+## CISSP outline transition (verified November 2026)
+
+ISC2 lists the current exam outline as effective April 15, 2024, and has announced a new outline effective April 15, 2027. The weights below describe the current outline; check the [official ISC2 outline](https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline) for the upcoming 2027 version before planning an exam on or after that date.
+
 ## CISSP Domains and Weights
 
 Domain weights are exam claims and should be verified through ISC2 official guidance for exam planning.
