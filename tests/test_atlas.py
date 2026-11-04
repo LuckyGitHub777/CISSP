@@ -56,11 +56,11 @@ class AtlasChecks(unittest.TestCase):
         self.assertFalse(self.parser.external_code)
         for forbidden in ("localStorage", "sessionStorage", "sendBeacon", "XMLHttpRequest", "document.cookie", "fetch("):
             self.assertNotIn(forbidden, self.source)
-        self.assertNotRegex(self.source, r"<(?:iframe|form)\\b")
+        self.assertNotRegex(self.source, r"<(?:iframe|form)\b")
 
     @unittest.skipUnless(shutil.which("node"), "Node.js not installed")
     def test_embedded_javascript_syntax(self):
-        match = re.search(r"<script>\\s*(.*?)\\s*</script>", self.source, re.DOTALL)
+        match = re.search(r"<script>\s*(.*?)\s*</script>", self.source, re.DOTALL)
         self.assertIsNotNone(match)
         with tempfile.TemporaryDirectory() as temp:
             script = Path(temp) / "atlas.js"
