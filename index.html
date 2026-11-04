@@ -20,7 +20,8 @@
     .status{display:flex;justify-content:space-between;gap:1rem;align-items:center;color:var(--muted);font-size:.88rem;padding:0 0 1rem}.status strong{color:var(--gold)}
     .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;padding-bottom:4rem}.domain{position:relative;min-height:240px;border:1px solid var(--edge);background:linear-gradient(145deg,#17283b 0%,#0e1928 90%);border-radius:16px;padding:clamp(1.3rem,2.5vw,2rem);display:flex;flex-direction:column;justify-content:space-between;transition:border-color .2s,transform .2s;overflow:hidden}.domain:hover,.domain:focus-within{border-color:var(--gold);transform:translateY(-2px)}.domain[hidden]{display:none}.domain:after{content:"";position:absolute;width:125px;height:125px;border:1px solid #e6c98035;border-radius:50%;right:-48px;top:-45px;box-shadow:0 0 0 15px #e6c9800b;pointer-events:none}
     .domain .index{color:var(--gold);font-size:.75rem;letter-spacing:.15em;font-weight:700}.domain h3{font:400 clamp(1.35rem,2.4vw,1.92rem) Georgia,serif;line-height:1.2;max-width:390px;margin:.85rem 0 .65rem}.domain p{font-size:.92rem;color:var(--muted);max-width:410px;margin:0}.actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.6rem}.actions a{color:var(--gold);text-decoration-color:#e6c98070;text-underline-offset:5px;font-size:.9rem;font-weight:700}.actions a:hover{text-decoration-thickness:2px}.actions button{font:inherit;font-size:.82rem;color:var(--ink);background:#203246;border:1px solid #698093;border-radius:99px;padding:.42rem .8rem;cursor:pointer}.actions button[aria-pressed="true"]{background:#18433c;border-color:#94d8c3;color:#d5f9ef}
-    .footer{border-top:1px solid #ffffff27;padding:2rem 0 3rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}.footer a{color:var(--gold)}.footer p{max-width:680px;margin:0}
+    .empty-state{border:1px solid var(--edge);border-radius:16px;padding:2rem;background:#132538;color:var(--muted);margin:0 0 3rem}.empty-state strong{color:var(--gold)}.empty-state[hidden]{display:none}
+        .footer{border-top:1px solid #ffffff27;padding:2rem 0 3rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}.footer a{color:var(--gold)}.footer p{max-width:680px;margin:0}
     @media(max-width:700px){.orb{width:280px;right:-175px;top:8%;opacity:.3}.hero{padding-top:4rem}.grid{grid-template-columns:1fr}.bar{align-items:start}.domain{min-height:218px}.status{flex-wrap:wrap}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.domain{transition:none}.domain:hover,.domain:focus-within{transform:none}}
   </style>
@@ -50,6 +51,7 @@
           <article class="domain" data-card data-search="operations incident response continuity recovery monitoring"><div><span class="index">DOMAIN 07</span><h3>Security Operations</h3><p>Keep systems dependable when routine conditions change or incidents strike.</p></div><div class="actions"><a href="https://github.com/LuckyGitHub777/cissp/blob/main/domains/domain-07-security-operations.md">Explore chapter <span aria-hidden="true">↗</span></a><button class="mark" type="button" aria-pressed="false" aria-label="Mark domain 7 explored">Mark explored</button></div></article>
           <article class="domain" data-card data-search="software development security secure coding supply chain lifecycle"><div><span class="index">DOMAIN 08</span><h3>Software Development Security</h3><p>Build and maintain trustworthy software through its entire lifecycle.</p></div><div class="actions"><a href="https://github.com/LuckyGitHub777/cissp/blob/main/domains/domain-08-software-development-security.md">Explore chapter <span aria-hidden="true">↗</span></a><button class="mark" type="button" aria-pressed="false" aria-label="Mark domain 8 explored">Mark explored</button></div></article>
         </div>
+        <p class="empty-state" id="empty-state" hidden><strong>No matching domains.</strong> Try another keyword or clear your search to see all eight.</p>
       </section>
     </main>
     <footer class="footer"><p>An independent study navigator. Not affiliated with or endorsed by ISC2. Verify exam policies, outlines and weights with ISC2. Domain summaries are educational, not exam questions.</p><p>No cookies, analytics, external code or saved progress. Your selections reset when the page closes.</p></footer>
@@ -62,6 +64,7 @@
       const clear = document.getElementById('clear-search');
       const count = document.getElementById('visible-count');
       const explored = document.getElementById('explored-count');
+      const empty = document.getElementById('empty-state');
       function refresh() {
         const query = search.value.toLocaleLowerCase().trim();
         let shown = 0;
@@ -71,6 +74,7 @@
           if (!card.hidden) shown += 1;
         }
         count.textContent = `${shown} ${shown === 1 ? 'domain' : 'domains'} in view`;
+        empty.hidden = !(query && shown === 0);
         explored.textContent = `${cards.filter(card => card.querySelector('.mark').getAttribute('aria-pressed') === 'true').length} of ${cards.length}`;
       }
       search.addEventListener('input', refresh);
