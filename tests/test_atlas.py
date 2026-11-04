@@ -48,7 +48,7 @@ class AtlasChecks(unittest.TestCase):
 
     def test_navigation_and_controls(self):
         self.assertIn('lang="en"', self.source)
-        self.assertTrue({"hero-title", "atlas", "domain-search", "domain-grid", "visible-count", "explored-count"}.issubset(self.parser.ids))
+        self.assertTrue({"hero-title", "atlas", "domain-search", "domain-grid", "visible-count", "explored-count", "empty-state"}.issubset(self.parser.ids))
         self.assertIn("aria-pressed", self.source)
         self.assertIn("prefers-reduced-motion", self.source)
 
