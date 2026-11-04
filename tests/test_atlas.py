@@ -1,4 +1,6 @@
 """Offline checks for the public, self-contained CISSP Domain Atlas."""
+import base64
+import hashlib
 from html.parser import HTMLParser
 from pathlib import Path
 import re
@@ -57,6 +59,33 @@ class AtlasChecks(unittest.TestCase):
         for forbidden in ("localStorage", "sessionStorage", "sendBeacon", "XMLHttpRequest", "document.cookie", "fetch("):
             self.assertNotIn(forbidden, self.source)
         self.assertNotRegex(self.source, r"<(?:iframe|form)\b")
+
+    def test_self_contained_atlas_hash_bound_content_security_policy(self):
+        match = re.search(
+            r'<meta http-equiv="Content-Security-Policy" content="([^"]+)">',
+            self.source,
+        )
+        self.assertIsNotNone(match, "Missing deployable CSP metadata")
+        policy = match.group(1)
+        for directive in (
+            "default-src 'none'", "connect-src 'none'", "object-src 'none'",
+            "form-action 'none'", "frame-src 'none'", "base-uri 'none'",
+        ):
+            self.assertIn(directive, policy)
+        self.assertNotIn("'unsafe-inline'", policy)
+        self.assertNotIn("'unsafe-eval'", policy)
+        self.assertIn('<meta name="referrer" content="no-referrer">', self.source)
+        for tag, directive in (("script", "script-src"), ("style", "style-src")):
+            with self.subTest(tag=tag):
+                blocks = re.findall(rf"<{tag}>(.*?)</{tag}>", self.source, re.DOTALL)
+                self.assertEqual(len(blocks), 1, "Unexpected active content blocks")
+                digest = base64.b64encode(
+                    hashlib.sha256(blocks[0].encode("utf-8")).digest()
+                ).decode("ascii")
+                expected = f"{directive} 'sha256-{digest}'"
+                self.assertIn(expected, policy, "CSP hash does not match source bytes")
+        self.assertNotRegex(self.source, r"\\bon(?:click|load|error|input|change)=")
+        self.assertNotIn("javascript:", self.source.lower())
 
     @unittest.skipUnless(shutil.which("node"), "Node.js not installed")
     def test_embedded_javascript_syntax(self):
