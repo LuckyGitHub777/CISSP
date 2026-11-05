@@ -76,24 +76,22 @@ Official sources:
 
 Exam facts and domain weights are sourced claims. For exam planning, verify them through ISC2 official guidance.
 
-## CISSP outline transition (verified November 2026)
+## CISSP Domains — a lasting study map
 
-ISC2 lists the current exam outline as effective April 15, 2024, and has announced a new outline effective April 15, 2027. The weights below describe the current outline; check the [official ISC2 outline](https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline) for the upcoming 2027 version before planning an exam on or after that date.
+The domain names below are a learning map, **not a promise that exam content or weights remain unchanged**. ISC2 periodically revises the examination. When using this guide to prepare for certification, consult the [official CISSP exam outline](https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline) for the applicable exam date, current weighting, and detailed tasks.
 
-## CISSP Domains and Weights
-
-Domain weights are exam claims and should be verified through ISC2 official guidance for exam planning.
-
-| Domain | Weight |
+| Domain | Learning area |
 |---:|---|
-| 1 | Security and Risk Management, 16% |
-| 2 | Asset Security, 10% |
-| 3 | Security Architecture and Engineering, 13% |
-| 4 | Communication and Network Security, 13% |
-| 5 | Identity and Access Management, 13% |
-| 6 | Security Assessment and Testing, 12% |
-| 7 | Security Operations, 13% |
-| 8 | Software Development Security, 10% |
+| 1 | Security and Risk Management |
+| 2 | Asset Security |
+| 3 | Security Architecture and Engineering |
+| 4 | Communication and Network Security |
+| 5 | Identity and Access Management |
+| 6 | Security Assessment and Testing |
+| 7 | Security Operations |
+| 8 | Software Development Security |
+
+For a **historical 2024 examination-outline weight snapshot**, see [Domain Weights](quick-reference/domain-weights.md). These percentages are retained for context, not offered as live exam planning data.
 
 ## CISSP Mindset
 
