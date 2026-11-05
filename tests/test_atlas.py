@@ -48,6 +48,20 @@ class AtlasChecks(unittest.TestCase):
             filename = link.rsplit("/", 1)[-1]
             self.assertTrue((ROOT / "domains" / filename).is_file(), filename)
 
+    def test_readme_direct_chapters_and_flashcards(self):
+        guide = (ROOT / "README.md").read_text(encoding="utf-8")
+        chapters = re.findall(r"\]\((domains/domain-\d{2}-[^)]+\.md)\)", guide)
+        flashcards = re.findall(r"\]\((flashcards/domain-\d{2}-flashcards\.md)\)", guide)
+        self.assertEqual(len(chapters), 8)
+        self.assertEqual(len(set(chapters)), 8)
+        self.assertEqual(len(flashcards), 8)
+        self.assertEqual(len(set(flashcards)), 8)
+        for item in chapters + flashcards:
+            self.assertTrue((ROOT / item).is_file(), item)
+        for path in ("accelerated", "standard", "extended"):
+            self.assertIn(f"](study-system/{path}-study-path.md)", guide)
+            self.assertTrue((ROOT / "study-system" / f"{path}-study-path.md").is_file())
+
     def test_navigation_and_controls(self):
         self.assertIn('lang="en"', self.source)
         self.assertTrue({"hero-title", "atlas", "domain-search", "domain-grid", "visible-count", "explored-count", "empty-state"}.issubset(self.parser.ids))
