@@ -266,3 +266,10 @@ No recovery, no continuity.
 No secure SDLC, no trusted software.  
 No AI governance, no AI trust.  
 No evidence, no claim.
+
+## Related public projects
+
+- [Guardian](https://github.com/LuckyGitHub777/guardian-assurance-public) — a local-first tool for publication assurance.
+- [SSL Certificate Status Checker](https://github.com/LuckyGitHub777/ssl-certificate-status) — a practical certificate inspection example, not a TLS trust verdict.
+
+[Browse the other public projects](https://github.com/LuckyGitHub777?tab=repositories).
