@@ -2,9 +2,11 @@
 
 A structured CISSP study guide and cybersecurity leadership knowledge roadmap aligned to ISC2 official guidance and the eight CISSP domains.
 
-## Visual Domain Atlas
+## Explore the Visual Domain Atlas
 
-The repository includes a self-contained, responsive [CISSP Domain Atlas](index.html) with eight clickable domain pathways, on-page search, and session-only exploration marks. Open `index.html` locally in a browser after downloading the repository. The experience needs no account, telemetry, network runtime or external libraries. This README does not claim a separate live website deployment.
+[**Open the CISSP Domain Atlas file**](index.html) — eight interactive domain pathways, on-page search, and session-only exploration marks.
+
+**To use the interactive guide now:** Select **Code → Download ZIP** above, extract the files, and open `index.html` in your browser. The atlas is self-contained: no account, hosting, telemetry, runtime network connection, or external libraries are needed. The GitHub file link shows the source; downloading it lets you use the actual interface.
 
 ### Optional GitHub Pages publication (not yet active)
 
