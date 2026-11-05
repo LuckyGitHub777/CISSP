@@ -72,16 +72,18 @@ Exam facts and domain weights are sourced claims. For exam planning, verify them
 
 The domain names below are a learning map, **not a promise that exam content or weights remain unchanged**. ISC2 periodically revises the examination. When using this guide to prepare for certification, consult the [official CISSP exam outline](https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline) for the applicable exam date, current weighting, and detailed tasks.
 
-| Domain | Learning area |
-|---:|---|
-| 1 | Security and Risk Management |
-| 2 | Asset Security |
-| 3 | Security Architecture and Engineering |
-| 4 | Communication and Network Security |
-| 5 | Identity and Access Management |
-| 6 | Security Assessment and Testing |
-| 7 | Security Operations |
-| 8 | Software Development Security |
+**Start reading directly on GitHub:** Choose a chapter or its flashcards below; no ZIP or account is needed for the Markdown guide. For a longer sequence, use the [accelerated](study-system/accelerated-study-path.md), [standard](study-system/standard-study-path.md), or [extended](study-system/extended-study-path.md) study path. Use the [practice review template](practice/practice-question-review-template.md) to track reasoning without copying proprietary questions.
+
+| Domain | Learning area | Chapter | Flashcards |
+|---:|---|---|---|
+| 1 | Security and Risk Management | [Read chapter](domains/domain-01-security-and-risk-management.md) | [Review flashcards](flashcards/domain-01-flashcards.md) |
+| 2 | Asset Security | [Read chapter](domains/domain-02-asset-security.md) | [Review flashcards](flashcards/domain-02-flashcards.md) |
+| 3 | Security Architecture and Engineering | [Read chapter](domains/domain-03-security-architecture-and-engineering.md) | [Review flashcards](flashcards/domain-03-flashcards.md) |
+| 4 | Communication and Network Security | [Read chapter](domains/domain-04-communication-and-network-security.md) | [Review flashcards](flashcards/domain-04-flashcards.md) |
+| 5 | Identity and Access Management | [Read chapter](domains/domain-05-identity-and-access-management.md) | [Review flashcards](flashcards/domain-05-flashcards.md) |
+| 6 | Security Assessment and Testing | [Read chapter](domains/domain-06-security-assessment-and-testing.md) | [Review flashcards](flashcards/domain-06-flashcards.md) |
+| 7 | Security Operations | [Read chapter](domains/domain-07-security-operations.md) | [Review flashcards](flashcards/domain-07-flashcards.md) |
+| 8 | Software Development Security | [Read chapter](domains/domain-08-software-development-security.md) | [Review flashcards](flashcards/domain-08-flashcards.md) |
 
 For a **historical 2024 examination-outline weight snapshot**, see [Domain Weights](quick-reference/domain-weights.md). These percentages are retained for context, not offered as live exam planning data.
 
