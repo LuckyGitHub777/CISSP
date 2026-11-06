@@ -25,7 +25,7 @@ class AtlasParser(HTMLParser):
         data = dict(attrs)
         if tag == "article" and "data-card" in data:
             self.cards += 1
-        if tag == "a" and "/cissp/blob/main/domains/" in data.get("href", ""):
+        if tag == "a" and data.get("href", "").startswith("domains/domain-"):
             self.chapter_links.append(data["href"])
         if tag == "script" and "src" in data:
             self.external_code.append(data["src"])
@@ -51,8 +51,9 @@ class AtlasChecks(unittest.TestCase):
         self.assertEqual(len(links), 8)
         self.assertEqual(len(set(links)), 8)
         for link in links:
-            filename = link.rsplit("/", 1)[-1]
-            self.assertTrue((ROOT / "domains" / filename).is_file(), filename)
+            self.assertTrue(link.startswith("domains/domain-"), link)
+            self.assertNotIn("..", link)
+            self.assertTrue((ROOT / link).is_file(), link)
 
     def test_readme_direct_chapters_and_flashcards(self):
         guide = (ROOT / "README.md").read_text(encoding="utf-8")
