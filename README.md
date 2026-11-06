@@ -1,6 +1,17 @@
-# CISSP Study Guide
+# CISSP Domain Atlas & Study Guide
 
-A structured CISSP study guide and cybersecurity leadership knowledge roadmap aligned to ISC2 official guidance and the eight CISSP domains.
+Explore the eight CISSP knowledge domains through a visual atlas, focused chapters, flashcards, and practical study paths. **Start reading directly on GitHub**—no account, installation, or download is needed for the written guide.
+
+## Start exploring
+
+| Your next step | Open |
+|---|---|
+| Read a chapter or review flashcards | [Explore the eight-domain study map](#cissp-domains--a-lasting-study-map) |
+| Choose your pace | [Accelerated](study-system/accelerated-study-path.md) · [Standard](study-system/standard-study-path.md) · [Extended](study-system/extended-study-path.md) |
+| Practice decision-making | [Review a missed question](practice/practice-question-review-template.md) |
+| Explore visually | [View the local-run Atlas source](index.html) |
+
+This is an independent educational resource, not an ISC2-endorsed course or a source of current exam-policy guarantees. Always check [ISC2's official CISSP guidance](https://www.isc2.org/certifications/cissp) for exam planning.
 
 ## Explore the Visual Domain Atlas
 
