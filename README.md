@@ -6,11 +6,10 @@ Explore the eight CISSP knowledge domains through a visual atlas, focused chapte
 
 | Your next step | Open |
 |---|---|
-| Get oriented | [Domain 1: Security and Risk Management](domains/domain-01-security-and-risk-management.md) |
-| Explore identity | [Domain 5: Identity and Access Management](domains/domain-05-identity-and-access-management.md) |
-| Learn secure development | [Domain 8: Software Development Security](domains/domain-08-software-development-security.md) |
+| Read a chapter or review flashcards | [Explore the eight-domain study map](#cissp-domains--a-lasting-study-map) |
 | Choose your pace | [Accelerated](study-system/accelerated-study-path.md) · [Standard](study-system/standard-study-path.md) · [Extended](study-system/extended-study-path.md) |
-| Explore all eight | [Full domain and flashcard map](#cissp-domains--a-lasting-study-map) |
+| Practice decision-making | [Review a missed question](practice/practice-question-review-template.md) |
+| Explore visually | [View the local-run Atlas source](index.html) |
 
 This is an independent educational resource, not an ISC2-endorsed course or a source of current exam-policy guarantees. Always check [ISC2's official CISSP guidance](https://www.isc2.org/certifications/cissp) for exam planning.
 
