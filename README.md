@@ -17,7 +17,7 @@ This is an independent educational resource, not an ISC2-endorsed course or a so
 
 [**Open the CISSP Domain Atlas file**](index.html) — eight interactive domain pathways, on-page search, and session-only exploration marks.
 
-**To use the interactive guide now:** Select **Code → Download ZIP** above, extract the files, and open `index.html` in your browser. The atlas is self-contained: no account, hosting, telemetry, runtime network connection, or external libraries are needed. The GitHub file link shows the source; downloading it lets you use the actual interface.
+**To use the interactive guide now:** Select **Code → Download ZIP** above, extract the files, and open `index.html` in your browser. The atlas is self-contained: no account, hosting, telemetry, runtime network connection, or external libraries are needed. The GitHub file link shows the source; downloading it lets you use the actual interface. Each **Explore chapter** link opens the included Markdown chapter from the extracted ZIP, so no GitHub connection is needed.
 
 ## Purpose
 
