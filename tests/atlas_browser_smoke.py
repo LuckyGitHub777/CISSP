@@ -42,8 +42,12 @@ def verify(page, mode):
         demand(page.locator("#visible-count").inner_text() == "1 domain in view", "search-count")
         stage = "mark"
         marked = page.locator("article.domain:not([hidden]) button.mark")
+        demand(page.get_by_role("button", name="Mark explored Identity and Access Management").count() == 1,
+               "accessible-name-before-mark")
         marked.click()
         demand(marked.get_attribute("aria-pressed") == "true", "mark-pressed")
+        demand(page.get_by_role("button", name="Explored ✓ Identity and Access Management").count() == 1,
+               "accessible-name-after-mark")
         demand(page.locator("#explored-count").inner_text() == "1 of 8", "mark-count")
         stage = "clear"
         page.locator("#clear-search").click()

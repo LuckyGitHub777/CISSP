@@ -19,6 +19,8 @@ class AtlasParser(HTMLParser):
         self.chapter_links = []
         self.external_code = []
         self.ids = set()
+        self.mark_controls = []
+        self.heading_ids = set()
     def handle_starttag(self, tag, attrs):
         data = dict(attrs)
         if tag == "article" and "data-card" in data:
@@ -31,6 +33,10 @@ class AtlasParser(HTMLParser):
             self.external_code.append(data.get("href", ""))
         if "id" in data:
             self.ids.add(data["id"])
+        if tag == "h3" and "id" in data:
+            self.heading_ids.add(data["id"])
+        if tag == "button" and "mark" in data.get("class", "").split():
+            self.mark_controls.append(data)
 
 class AtlasChecks(unittest.TestCase):
     @classmethod
@@ -67,6 +73,19 @@ class AtlasChecks(unittest.TestCase):
         self.assertTrue({"hero-title", "atlas", "domain-search", "domain-grid", "visible-count", "explored-count", "empty-state"}.issubset(self.parser.ids))
         self.assertIn("aria-pressed", self.source)
         self.assertIn("prefers-reduced-motion", self.source)
+
+    def test_mark_buttons_have_stateful_accessible_names(self):
+        self.assertEqual(len(self.parser.mark_controls), 8)
+        for n, data in enumerate(self.parser.mark_controls, start=1):
+            with self.subTest(domain=n):
+                ident = f"domain-{n:02d}"
+                self.assertEqual(data.get("id"), f"{ident}-mark")
+                self.assertEqual(data.get("aria-labelledby"),
+                                 f"{ident}-mark {ident}-title")
+                self.assertIn(f"{ident}-title", self.parser.heading_ids)
+                self.assertEqual(data.get("aria-pressed"), "false")
+                self.assertNotIn("aria-label", data,
+                                 "A fixed accessible name would mask the updated button text")
 
     def test_no_remote_runtime_or_local_tracking(self):
         self.assertFalse(self.parser.external_code)
