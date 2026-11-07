@@ -19,7 +19,7 @@ This is an independent educational resource, not an ISC2-endorsed course or a so
 
 **To explore online:** Open the [public Domain Atlas](https://luckygithub777.github.io/cissp/). The interactive navigation runs in your browser without an account or tracking. The study chapters are also readable directly in this repository.
 
-**For offline use:** Select **Code → Download ZIP**, extract the files and open `index.html` locally. The self-contained Atlas requires no external JavaScript libraries or runtime service. Downloaded **Explore chapter** links open the included Markdown source files.
+**For personal study on your own device:** Select **Code → Download ZIP**, extract the files and open `index.html` locally. The self-contained Atlas requires no external JavaScript libraries or runtime service. Downloaded **Explore chapter** links open the included Markdown source files.
 
 ## Purpose
 
