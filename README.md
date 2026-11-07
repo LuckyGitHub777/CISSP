@@ -9,15 +9,17 @@ Explore the eight CISSP knowledge domains through a visual atlas, focused chapte
 | Read a chapter or review flashcards | [Explore the eight-domain study map](#cissp-domains--a-lasting-study-map) |
 | Choose your pace | [Accelerated](study-system/accelerated-study-path.md) · [Standard](study-system/standard-study-path.md) · [Extended](study-system/extended-study-path.md) |
 | Practice decision-making | [Review a missed question](practice/practice-question-review-template.md) |
-| Explore visually | [View the local-run Atlas source](index.html) |
+| Explore visually | [Open the interactive Domain Atlas](https://luckygithub777.github.io/cissp/) |
 
 This is an independent educational resource, not an ISC2-endorsed course or a source of current exam-policy guarantees. Always check [ISC2's official CISSP guidance](https://www.isc2.org/certifications/cissp) for exam planning.
 
 ## Explore the Visual Domain Atlas
 
-[**Open the CISSP Domain Atlas file**](index.html) — eight interactive domain pathways, on-page search, and session-only exploration marks.
+[**Launch the interactive CISSP Domain Atlas**](https://luckygithub777.github.io/cissp/) — eight domain pathways, on-page search, and session-only exploration marks. The site is published separately from GitHub's source-code preview.
 
-**To use the interactive guide now:** Select **Code → Download ZIP** above, extract the files, and open `index.html` in your browser. The atlas is self-contained: no account, hosting, telemetry, runtime network connection, or external libraries are needed. The GitHub file link shows the source; downloading it lets you use the actual interface. Each **Explore chapter** link opens the included Markdown chapter from the extracted ZIP, so no GitHub connection is needed.
+**To explore online:** Open the [public Domain Atlas](https://luckygithub777.github.io/cissp/). The interactive navigation runs in your browser without an account or tracking. The study chapters are also readable directly in this repository.
+
+**For offline use:** Select **Code → Download ZIP**, extract the files and open `index.html` locally. The self-contained Atlas requires no external JavaScript libraries or runtime service. Downloaded **Explore chapter** links open the included Markdown source files.
 
 ## Purpose
 
